@@ -1,0 +1,36 @@
+2026-04-29 14:10:43,447 - INFO - Inicia operación 1: Registro válido de cliente
+2026-04-29 14:10:43,449 - INFO - Operación 1 ejecutada correctamente.
+2026-04-29 14:10:43,449 - INFO - Finalizó operación 1.
+2026-04-29 14:10:43,450 - INFO - Inicia operación 2: Registro inválido de cliente por nombre corto
+2026-04-29 14:10:43,451 - ERROR - Error controlado en operación 2: El nombre debe tener mínimo 3 caracteres.
+2026-04-29 14:10:43,451 - INFO - Finalizó operación 2.
+2026-04-29 14:10:43,452 - INFO - Inicia operación 3: Registro inválido de cliente por correo incorrecto
+2026-04-29 14:10:43,452 - ERROR - Error controlado en operación 3: El correo electrónico no es válido.
+2026-04-29 14:10:43,452 - INFO - Finalizó operación 3.
+2026-04-29 14:10:43,454 - INFO - Inicia operación 4: Creación válida de servicio reserva de sala
+2026-04-29 14:10:43,454 - INFO - Operación 4 ejecutada correctamente.
+2026-04-29 14:10:43,455 - INFO - Finalizó operación 4.
+2026-04-29 14:10:43,455 - INFO - Inicia operación 5: Creación válida de servicio alquiler de equipo
+2026-04-29 14:10:43,456 - INFO - Operación 5 ejecutada correctamente.
+2026-04-29 14:10:43,458 - INFO - Finalizó operación 5.
+2026-04-29 14:10:43,460 - INFO - Inicia operación 6: Creación válida de servicio asesoría especializada
+2026-04-29 14:10:43,461 - INFO - Operación 6 ejecutada correctamente.
+2026-04-29 14:10:43,462 - INFO - Finalizó operación 6.
+2026-04-29 14:10:43,464 - INFO - Inicia operación 7: Creación inválida de servicio con precio negativo
+2026-04-29 14:10:43,464 - ERROR - Error controlado en operación 7: El precio base debe ser mayor a cero.
+2026-04-29 14:10:43,465 - INFO - Finalizó operación 7.
+2026-04-29 14:10:43,465 - INFO - Inicia operación 8: Reserva exitosa
+2026-04-29 14:10:43,466 - INFO - Operación 8 ejecutada correctamente.
+2026-04-29 14:10:43,466 - INFO - Finalizó operación 8.
+2026-04-29 14:10:43,467 - INFO - Inicia operación 9: Reserva fallida por duración inválida
+2026-04-29 14:10:43,467 - ERROR - Error controlado en operación 9: La duración de la reserva debe ser mayor a cero.
+2026-04-29 14:10:43,467 - INFO - Finalizó operación 9.
+2026-04-29 14:10:43,468 - INFO - Inicia operación 10: Reserva fallida por servicio no disponible
+2026-04-29 14:10:43,468 - ERROR - Error controlado en operación 10: El servicio Asesoría no disponible no está disponible.
+2026-04-29 14:10:43,469 - INFO - Finalizó operación 10.
+2026-04-29 14:10:43,469 - INFO - Inicia operación 11: Cancelación de reserva
+2026-04-29 14:10:43,469 - INFO - Operación 11 ejecutada correctamente.
+2026-04-29 14:10:43,469 - INFO - Finalizó operación 11.
+2026-04-29 14:10:43,469 - INFO - Inicia operación 12: Procesamiento fallido de reserva cancelada
+2026-04-29 14:10:43,469 - ERROR - Error controlado en operación 12: Solo se pueden procesar reservas confirmadas.
+2026-04-29 14:10:43,470 - INFO - Finalizó operación 12.
